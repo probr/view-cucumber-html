@@ -3,4 +3,6 @@ WORKDIR probr
 COPY . .
 RUN npm ci
 
-ENTRYPOINT ["node", "index.js", "cucumber"]
+ARG PROBR_VERSION=
+
+ENTRYPOINT node parse.js cucumber $PROBR_VERSION
