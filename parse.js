@@ -10,7 +10,7 @@ var options = {
     scenarioTimestamp: true,
     launchReport: true,
     name: "Probr - Compliance as Code",
-    brandTitle: "Citihub Digital",
+    brandTitle: "Synechron Consulting",
 };
 
 if (process.argv[3]) {
